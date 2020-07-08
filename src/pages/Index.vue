@@ -32,15 +32,6 @@
         </div>
       </div>
     </div>
-    <basic-elements></basic-elements>
-    <navigation></navigation>
-    <tabs-section></tabs-section>
-    <progress-pagination></progress-pagination>
-    <notifications></notifications>
-    <typography></typography>
-    <javascript-components></javascript-components>
-    <carousel-section></carousel-section>
-    <nucleo-icons-section></nucleo-icons-section>
     <div class="section">
       <div class="container text-center">
         <div class="row justify-content-md-center">
@@ -59,40 +50,25 @@
     <signup-form></signup-form>
     <examples-section></examples-section>
     <download-section></download-section>
+    <patrocinadores></patrocinadores>
   </div>
 </template>
 <script>
 import { Parallax } from '@/components';
-import BasicElements from './components/BasicElementsSection';
-import Navigation from './components/Navigation';
-import TabsSection from './components/Tabs';
-import ProgressPagination from './components/ProgressPagination';
-import Notifications from './components/Notifications';
-import Typography from './components/Typography';
-import JavascriptComponents from './components/JavascriptComponents';
-import CarouselSection from './components/CarouselSection';
-import NucleoIconsSection from './components/NucleoIconsSection';
 import SignupForm from './components/SignupForm';
 import ExamplesSection from './components/ExamplesSection';
 import DownloadSection from './components/DownloadSection';
+import Patrocinadores from './components/Patrocinadores';
 
 export default {
   name: 'index',
   bodyClass: 'index-page',
   components: {
     Parallax,
-    BasicElements,
-    Navigation,
-    TabsSection,
-    ProgressPagination,
-    Notifications,
-    Typography,
-    JavascriptComponents,
-    CarouselSection,
-    NucleoIconsSection,
     SignupForm,
     ExamplesSection,
-    DownloadSection
+    DownloadSection,
+    Patrocinadores
   }
 };
 </script>

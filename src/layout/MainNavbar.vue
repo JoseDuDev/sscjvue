@@ -21,19 +21,19 @@
     <template slot="navbar-menu">
       <li class="nav-item">
         <router-link class="nav-link" to="/institucional">
-          <i class="fas fa-chess-king icone"></i>
+          <i class="now-ui-icons travel_istanbul"></i>
           <p class="atalho">Institucional</p>
         </router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/noticias">
-          <i class="fas fa-newspaper icone"></i>
+          <i class="now-ui-icons education_paper"></i>
           <p class="atalho">Notícias</p>
         </router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/multimidia">
-          <i class="fas fa-tv icone"></i>
+          <i class="now-ui-icons media-1_camera-compact"></i>
           <p class="atalho">Multimídia</p>
         </router-link>
       </li>
@@ -97,7 +97,7 @@
           target="_blank"
         >
           <i class="fab fa-youtube"></i>
-          <p class="d-lg-none d-xl-none">Instagram</p>
+          <p class="d-lg-none d-xl-none">YouTube</p>
         </a>
       </li>
       <li class="nav-item">

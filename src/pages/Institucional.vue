@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="page-header clear-filter" filter-color="orange">
-      <parallax class="page-header-image" style="background-image:url('img/bg5.jpg')"></parallax>
+      <parallax class="page-header-image" style="background-image:url('img/bg4.jpg')"></parallax>
       <div class="container">
         <tabs type="primary" tabContentClasses="tab-subcategories" square centered class="row">
           <tab-pane>
