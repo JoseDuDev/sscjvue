@@ -2,11 +2,11 @@
   <div class="section" id="carousel">
     <div class="container">
       <div class="title">
-        <h4>PATROCINADORES</h4>
+        <h3>PATROCINADORES</h3>
       </div>
       <div class="row justify-content-center">
-        <div class="col-8">
-          <el-carousel height="115px">
+        <div class="col-12">
+          <el-carousel height="177px">
             <el-carousel-item>
               <img class="d-block" src="patrocinio/aurora.jpg" alt="Ótica Aurora" />
             </el-carousel-item>

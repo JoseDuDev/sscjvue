@@ -19,45 +19,75 @@
       </el-popover>
     </template>
     <template slot="navbar-menu">
-      <li class="nav-item">
-        <router-link class="nav-link" to="/institucional">
-          <i class="now-ui-icons travel_istanbul"></i>
-          <p class="atalho">Institucional</p>
-        </router-link>
-      </li>
-      <li class="nav-item">
-        <router-link class="nav-link" to="/noticias">
-          <i class="now-ui-icons education_paper"></i>
-          <p class="atalho">Notícias</p>
-        </router-link>
-      </li>
+      <drop-down tag="li" title="Institucional" icon="now-ui-icons travel_istanbul" class="nav-item">
+        <nav-link to="/institucional">
+          <i class="now-ui-icons business_chart-pie-36"></i> Nossa História 
+        </nav-link>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons design_bullet-list-67"></i> Dehonianos 
+        </nav-link>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons design_bullet-list-67"></i> Seja um dizimista 
+        </nav-link>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons design_bullet-list-67"></i> Pastorais e Movimentos
+        </nav-link>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons business_chart-pie-36"></i> Espiritualidade 
+        </nav-link>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons design_bullet-list-67"></i> Clero 
+        </nav-link>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons business_chart-pie-36"></i> Horários 
+        </nav-link>
+      </drop-down>
+      <drop-down tag="li" title="Notícias" icon="now-ui-icons design_app" class="nav-item">
+        <nav-link to="/noticias">
+          <i class="now-ui-icons education_paper"></i> Notícias da Paróquia
+        </nav-link>
+        <nav-link to="/noticias">
+          <i class="now-ui-icons users_circle-08"></i> Notícias em Geral
+        </nav-link>
+        <nav-link to="/noticias">
+          <i class="now-ui-icons users_single-02"></i> Artigos
+        </nav-link>
+      </drop-down>
       <li class="nav-item">
         <router-link class="nav-link" to="/multimidia">
           <i class="now-ui-icons media-1_camera-compact"></i>
           <p class="atalho">Multimídia</p>
         </router-link>
       </li>
-      <drop-down tag="li" title="Components" icon="now-ui-icons design_app" class="nav-item">
-        <nav-link to="/">
-          <i class="now-ui-icons business_chart-pie-36"></i> All components
+      <drop-down tag="li" title="Interatividade" icon="now-ui-icons design_image" class="nav-item">
+        <nav-link to="/agenda">
+          <i class="now-ui-icons business_chart-pie-36"></i> Agenda
         </nav-link>
-        <a
-          href="https://demos.creative-tim.com/vue-now-ui-kit/documentation"
-          target="_blank"
-          class="dropdown-item"
-        >
-          <i class="now-ui-icons design_bullet-list-67"></i> Documentation
-        </a>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons design_bullet-list-67"></i> Galeria de fotos
+        </nav-link>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons business_chart-pie-36"></i> Intenções
+        </nav-link>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons design_bullet-list-67"></i> Pedidos de oração
+        </nav-link>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons business_chart-pie-36"></i> Liturgia diária
+        </nav-link>
+        <nav-link to="/agenda">
+          <i class="now-ui-icons design_bullet-list-67"></i> Santo do dia
+        </nav-link>
       </drop-down>
-      <drop-down tag="li" title="Examples" icon="now-ui-icons design_image" class="nav-item">
+      <drop-down tag="li" title="Contato" icon="now-ui-icons design_app" class="nav-item">
         <nav-link to="/landing">
-          <i class="now-ui-icons education_paper"></i> Landing
+          <i class="now-ui-icons education_paper"></i> Fale conosco
         </nav-link>
         <nav-link to="/login">
-          <i class="now-ui-icons users_circle-08"></i> Login
+          <i class="now-ui-icons users_circle-08"></i> Horários
         </nav-link>
         <nav-link to="/profile">
-          <i class="now-ui-icons users_single-02"></i> Profile
+          <i class="now-ui-icons users_single-02"></i> Localização
         </nav-link>
       </drop-down>
 

@@ -4,9 +4,11 @@ import Index from './pages/Index.vue';
 import Landing from './pages/Landing.vue';
 import Login from './pages/Login.vue';
 import Profile from './pages/Profile.vue';
+
 import Institucional from './pages/Institucional.vue';
 import Noticias from './pages/Noticias.vue';
 import Multimidia from './pages/Multimidia.vue';
+import Agenda from './pages/Agenda.vue';
 
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
@@ -72,12 +74,20 @@ export default new Router({
     {
       path: '/noticias',
       name: 'Notícias',
-      components: { default: Noticias, header: MainNavbar, footer: MainFooter },
+      components: { default: Noticias, header: MainNavbar },
       props: {
         header: { colorOnScroll: 400 },
-        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/agenda',
+      name: 'Agenda',
+      components: { default: Agenda, header: MainNavbar },
+      props: {
+        header: { colorOnScroll: 400 },
       }
     }
+
   ],
   scrollBehavior: to => {
     if (to.hash) {
